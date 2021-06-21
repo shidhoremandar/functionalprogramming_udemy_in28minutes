@@ -2,6 +2,7 @@ package fp;
 
 import java.util.List;
 
+// stream, filter, forEach
 public class C1 {
 
 	public static void main(String[] args) {
@@ -29,7 +30,6 @@ public class C1 {
 		numbers.forEach(n -> System.out.println(n));
 		System.out.println("dofpstyle way 2");
 		numbers.forEach(System.out::println);
-
 	}
 
 	private static void findallevenfpstyle(List<Integer> numbers) {
